@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Quizzler
-//
-//  Created by Angela Yu on 25/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
-//
 
 import UIKit
 import AVFoundation
@@ -12,13 +5,12 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    //The UI Elements from the storyboard   are already linked up for you.
+    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var progressBar: UIView!
     @IBOutlet weak var progressLabel: UILabel!
     
-    //Place your instance variables here
     
     let allQuestions = QuestionBank()
     var pickedAnswer : Bool = false
@@ -67,7 +59,7 @@ class ViewController: UIViewController {
         nextQuestion()
     }
 
-    //This method will update the question text and check if we reached the end.
+    //This method will update the question text and check if reached the end.
     func nextQuestion() {
         
         if questionNumber <= 12 {
