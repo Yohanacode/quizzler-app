@@ -1,10 +1,10 @@
 #  Quizzler App
 
-## Our Goal
+## The Goal
 
-The goal of this tutorial is to take me one step further in my journey of becoming a developer. I'm going to introduce the holy grail of mobile design patterns: the Model View Controller (MVC) pattern. A design pattern is simply a repeatable and optimised solution to a common software problem. 
+The goal of this tutorial is to take one step further in my journey of becoming a developer. I'm going to introduce the holy grail of mobile design patterns: the Model View Controller (MVC) pattern. A design pattern is simply a repeatable and optimised solution to a common software problem. 
 
-## What you will create
+## What i created
 
 It is a trivia quiz app, inspired by the awesome “Quiz Up” game. If you have another field of expertise, you’ll be glad to know that multiple choice question apps are one of the most popular types of educational apps on the App Store! 
 
